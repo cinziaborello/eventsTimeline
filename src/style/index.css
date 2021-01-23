@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+#container {
+  min-height: 100vh;
+  background-color: #FAF0CA;
+  overflow: scroll;
+}
+
+#timeline {
+  display: grid;
+  grid-template-columns: repeat(100, 8vw);
+  grid-template-rows: auto;
+  row-gap: 1.2vh;
+}
+
+.date {
+  font-size: .9em;
+  font-weight: bold;
+  text-align: center;
+  grid-row: 1 / 1;
+  background-color: #F4D35E;
+  padding: 1em 0;
+  color: #000;
+}
+
+.events {
+  background-color: #707070;
+  border-radius: 1.5em;
+  padding: .8em 1em .1em 1em;
+  min-height: 5vh;
+  color: #FFF;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: .1em;
+  margin: 0 .2em;
+}
+
+.eventInput {
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  background-color: #707070;
+  color: #FFF;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  letter-spacing: .1em;
+}
